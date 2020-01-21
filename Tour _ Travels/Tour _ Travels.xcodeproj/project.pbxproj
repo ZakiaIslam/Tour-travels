@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE42E1B321900D5100874309 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE42E1B221900D5100874309 /* AppDelegate.swift */; };
+		CE42E1B521900D5100874309 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE42E1B421900D5100874309 /* ViewController.swift */; };
+		CE42E1B821900D5100874309 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE42E1B621900D5100874309 /* Main.storyboard */; };
+		CE42E1BA21900D5100874309 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE42E1B921900D5100874309 /* Assets.xcassets */; };
+		CE42E1BD21900D5100874309 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE42E1BB21900D5100874309 /* LaunchScreen.storyboard */; };
+		CE42E1C821900D5100874309 /* Tour___TravelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE42E1C721900D5100874309 /* Tour___TravelsTests.swift */; };
+		CE42E1D321900D5100874309 /* Tour___TravelsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE42E1D221900D5100874309 /* Tour___TravelsUITests.swift */; };
+		CE42E223219025E900874309 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE42E222219025E900874309 /* TableViewController.swift */; };
+		CE42E22521902D7000874309 /* information.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE42E22421902D7000874309 /* information.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE42E1C421900D5100874309 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE42E1A721900D5100874309 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE42E1AE21900D5100874309;
+			remoteInfo = "Tour & Travels";
+		};
+		CE42E1CF21900D5100874309 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE42E1A721900D5100874309 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE42E1AE21900D5100874309;
+			remoteInfo = "Tour & Travels";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE42E1AF21900D5100874309 /* Tour & Travels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tour & Travels.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE42E1B221900D5100874309 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE42E1B421900D5100874309 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE42E1B721900D5100874309 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE42E1B921900D5100874309 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE42E1BC21900D5100874309 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE42E1BE21900D5100874309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE42E1C321900D5100874309 /* Tour & TravelsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tour & TravelsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE42E1C721900D5100874309 /* Tour___TravelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tour___TravelsTests.swift"; sourceTree = "<group>"; };
+		CE42E1C921900D5100874309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE42E1CE21900D5100874309 /* Tour & TravelsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tour & TravelsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE42E1D221900D5100874309 /* Tour___TravelsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tour___TravelsUITests.swift"; sourceTree = "<group>"; };
+		CE42E1D421900D5100874309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE42E222219025E900874309 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		CE42E22421902D7000874309 /* information.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = information.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE42E1AC21900D5100874309 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE42E1C021900D5100874309 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE42E1CB21900D5100874309 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE42E1A621900D5100874309 = {
+			isa = PBXGroup;
+			children = (
+				CE42E1B121900D5100874309 /* Tour & Travels */,
+				CE42E1C621900D5100874309 /* Tour & TravelsTests */,
+				CE42E1D121900D5100874309 /* Tour & TravelsUITests */,
+				CE42E1B021900D5100874309 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE42E1B021900D5100874309 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE42E1AF21900D5100874309 /* Tour & Travels.app */,
+				CE42E1C321900D5100874309 /* Tour & TravelsTests.xctest */,
+				CE42E1CE21900D5100874309 /* Tour & TravelsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE42E1B121900D5100874309 /* Tour & Travels */ = {
+			isa = PBXGroup;
+			children = (
+				CE42E1B221900D5100874309 /* AppDelegate.swift */,
+				CE42E1B421900D5100874309 /* ViewController.swift */,
+				CE42E1B621900D5100874309 /* Main.storyboard */,
+				CE42E22421902D7000874309 /* information.swift */,
+				CE42E222219025E900874309 /* TableViewController.swift */,
+				CE42E1B921900D5100874309 /* Assets.xcassets */,
+				CE42E1BB21900D5100874309 /* LaunchScreen.storyboard */,
+				CE42E1BE21900D5100874309 /* Info.plist */,
+			);
+			path = "Tour & Travels";
+			sourceTree = "<group>";
+		};
+		CE42E1C621900D5100874309 /* Tour & TravelsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE42E1C721900D5100874309 /* Tour___TravelsTests.swift */,
+				CE42E1C921900D5100874309 /* Info.plist */,
+			);
+			path = "Tour & TravelsTests";
+			sourceTree = "<group>";
+		};
+		CE42E1D121900D5100874309 /* Tour & TravelsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE42E1D221900D5100874309 /* Tour___TravelsUITests.swift */,
+				CE42E1D421900D5100874309 /* Info.plist */,
+			);
+			path = "Tour & TravelsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE42E1AE21900D5100874309 /* Tour & Travels */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE42E1D721900D5100874309 /* Build configuration list for PBXNativeTarget "Tour & Travels" */;
+			buildPhases = (
+				CE42E1AB21900D5100874309 /* Sources */,
+				CE42E1AC21900D5100874309 /* Frameworks */,
+				CE42E1AD21900D5100874309 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tour & Travels";
+			productName = "Tour & Travels";
+			productReference = CE42E1AF21900D5100874309 /* Tour & Travels.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE42E1C221900D5100874309 /* Tour & TravelsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE42E1DA21900D5100874309 /* Build configuration list for PBXNativeTarget "Tour & TravelsTests" */;
+			buildPhases = (
+				CE42E1BF21900D5100874309 /* Sources */,
+				CE42E1C021900D5100874309 /* Frameworks */,
+				CE42E1C121900D5100874309 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE42E1C521900D5100874309 /* PBXTargetDependency */,
+			);
+			name = "Tour & TravelsTests";
+			productName = "Tour & TravelsTests";
+			productReference = CE42E1C321900D5100874309 /* Tour & TravelsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE42E1CD21900D5100874309 /* Tour & TravelsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE42E1DD21900D5100874309 /* Build configuration list for PBXNativeTarget "Tour & TravelsUITests" */;
+			buildPhases = (
+				CE42E1CA21900D5100874309 /* Sources */,
+				CE42E1CB21900D5100874309 /* Frameworks */,
+				CE42E1CC21900D5100874309 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE42E1D021900D5100874309 /* PBXTargetDependency */,
+			);
+			name = "Tour & TravelsUITests";
+			productName = "Tour & TravelsUITests";
+			productReference = CE42E1CE21900D5100874309 /* Tour & TravelsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE42E1A721900D5100874309 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = SherlockeD;
+				TargetAttributes = {
+					CE42E1AE21900D5100874309 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CE42E1C221900D5100874309 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE42E1AE21900D5100874309;
+					};
+					CE42E1CD21900D5100874309 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE42E1AE21900D5100874309;
+					};
+				};
+			};
+			buildConfigurationList = CE42E1AA21900D5100874309 /* Build configuration list for PBXProject "Tour & Travels" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE42E1A621900D5100874309;
+			productRefGroup = CE42E1B021900D5100874309 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE42E1AE21900D5100874309 /* Tour & Travels */,
+				CE42E1C221900D5100874309 /* Tour & TravelsTests */,
+				CE42E1CD21900D5100874309 /* Tour & TravelsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE42E1AD21900D5100874309 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE42E1BD21900D5100874309 /* LaunchScreen.storyboard in Resources */,
+				CE42E1BA21900D5100874309 /* Assets.xcassets in Resources */,
+				CE42E1B821900D5100874309 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE42E1C121900D5100874309 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE42E1CC21900D5100874309 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE42E1AB21900D5100874309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE42E1B521900D5100874309 /* ViewController.swift in Sources */,
+				CE42E223219025E900874309 /* TableViewController.swift in Sources */,
+				CE42E22521902D7000874309 /* information.swift in Sources */,
+				CE42E1B321900D5100874309 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE42E1BF21900D5100874309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE42E1C821900D5100874309 /* Tour___TravelsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE42E1CA21900D5100874309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE42E1D321900D5100874309 /* Tour___TravelsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE42E1C521900D5100874309 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE42E1AE21900D5100874309 /* Tour & Travels */;
+			targetProxy = CE42E1C421900D5100874309 /* PBXContainerItemProxy */;
+		};
+		CE42E1D021900D5100874309 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE42E1AE21900D5100874309 /* Tour & Travels */;
+			targetProxy = CE42E1CF21900D5100874309 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE42E1B621900D5100874309 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE42E1B721900D5100874309 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE42E1BB21900D5100874309 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE42E1BC21900D5100874309 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE42E1D521900D5100874309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE42E1D621900D5100874309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE42E1D821900D5100874309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tour & Travels/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SaM.Tour---Travels";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CE42E1D921900D5100874309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tour & Travels/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SaM.Tour---Travels";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CE42E1DB21900D5100874309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tour & TravelsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SaM.Tour---TravelsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tour & Travels.app/Tour & Travels";
+			};
+			name = Debug;
+		};
+		CE42E1DC21900D5100874309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tour & TravelsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SaM.Tour---TravelsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tour & Travels.app/Tour & Travels";
+			};
+			name = Release;
+		};
+		CE42E1DE21900D5100874309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tour & TravelsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SaM.Tour---TravelsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tour & Travels";
+			};
+			name = Debug;
+		};
+		CE42E1DF21900D5100874309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tour & TravelsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SaM.Tour---TravelsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tour & Travels";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE42E1AA21900D5100874309 /* Build configuration list for PBXProject "Tour & Travels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE42E1D521900D5100874309 /* Debug */,
+				CE42E1D621900D5100874309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE42E1D721900D5100874309 /* Build configuration list for PBXNativeTarget "Tour & Travels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE42E1D821900D5100874309 /* Debug */,
+				CE42E1D921900D5100874309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE42E1DA21900D5100874309 /* Build configuration list for PBXNativeTarget "Tour & TravelsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE42E1DB21900D5100874309 /* Debug */,
+				CE42E1DC21900D5100874309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE42E1DD21900D5100874309 /* Build configuration list for PBXNativeTarget "Tour & TravelsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE42E1DE21900D5100874309 /* Debug */,
+				CE42E1DF21900D5100874309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE42E1A721900D5100874309 /* Project object */;
+}
